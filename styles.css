@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+header {
+    background-color: #3ae3e9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    margin-top: 0;
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
