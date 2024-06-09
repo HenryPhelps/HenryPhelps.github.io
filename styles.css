@@ -1,0 +1,49 @@
+:root {
+    --bg-width: 33.33%;
+    --bg-height: auto; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3ae3e9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    color: white;
+    background-image: url("IMG_3017.JPG"), url("IMG_9320.JPG"), url("IMG_9325.JPG");
+    background-size: var(--bg-width) var(--bg-height);
+    background-position: 0 0, 448px 0, 896px 0;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    min-height: 100vh;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    margin-top: 0;
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
