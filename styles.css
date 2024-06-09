@@ -1,6 +1,11 @@
 :root {
     --bg-width: 33.33%;
     --bg-height: auto; 
+    --multiplier: 2;
+}
+
+.element {
+    width: calc(var(--bg-width) * var(--multiplier));
 }
 
 body {
@@ -21,7 +26,7 @@ main {
     color: white;
     background-image: url("IMG_3017.JPG"), url("IMG_9320.JPG"), url("IMG_9325.JPG");
     background-size: var(--bg-width) var(--bg-height);
-    background-position: 0 0, 448px 0, 896px 0;
+    background-position: 0 0, var(--bg-width) 0, width 0;
     background-repeat: no-repeat;
     padding: 50px;
     text-align: center;
