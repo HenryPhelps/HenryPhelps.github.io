@@ -4,10 +4,6 @@
     --multiplier: 2;
 }
 
-.element {
-    width: calc(var(--bg-width) * var(--multiplier));
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,6 +20,7 @@ header {
 
 main {
     color: white;
+    width: calc(var(--bg-width) * var(--multiplier));
     background-image: url("IMG_3017.JPG"), url("IMG_9320.JPG"), url("IMG_9325.JPG");
     background-size: var(--bg-width) var(--bg-height);
     background-position: 0 0, var(--bg-width) 0, width 0;
